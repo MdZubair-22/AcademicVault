@@ -1,0 +1,1 @@
+import { defineConfig } from 'vite'; import react from '@vitejs/plugin-react'; export default defineConfig({cacheDir:'.vite',plugins:[react()],build:{rollupOptions:{output:{manualChunks:{ocr:['tesseract.js']}}}}});

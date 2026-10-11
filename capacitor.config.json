@@ -1,0 +1,6 @@
+{
+  "appId": "com.academicvault.app",
+  "appName": "AcademicVault",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
